@@ -22,7 +22,7 @@
     <meta name="description" content="-1 前言 编辑日志：  8&#x2F;20 开坑，写到 1.4。 8&#x2F;21 写到 1.5.5.1。 8&#x2F;23 写到 2.1.6。 8&#x2F;26 写到 4.4，一稿完成！ 8&#x2F;28 增加 3.6 二稿一编。 8&#x2F;28 增加 5,6，二稿完成！ 10&#x2F;17 修缮（三稿）  全文总共 20963 字符，1089 行（Markdown 源文件）。 本文浏览约需要 20 分钟，详细阅读约需要 40 分钟，如果准备实际操">
 <meta property="og:type" content="article">
 <meta property="og:title" content="ArchLinux 简明安装&amp;使用指南">
-<meta property="og:url" content="http://pulsar.github.io/2025/12/04/ArchLinux-%E7%AE%80%E6%98%8E%E5%AE%89%E8%A3%85-%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/index.html">
+<meta property="og:url" content="http://pulsar33550336.github.io/2025/12/04/ArchLinux-%E7%AE%80%E6%98%8E%E5%AE%89%E8%A3%85-%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/index.html">
 <meta property="og:site_name" content="Pulsar&#39;s Blog">
 <meta property="og:description" content="-1 前言 编辑日志：  8&#x2F;20 开坑，写到 1.4。 8&#x2F;21 写到 1.5.5.1。 8&#x2F;23 写到 2.1.6。 8&#x2F;26 写到 4.4，一稿完成！ 8&#x2F;28 增加 3.6 二稿一编。 8&#x2F;28 增加 5,6，二稿完成！ 10&#x2F;17 修缮（三稿）  全文总共 20963 字符，1089 行（Markdown 源文件）。 本文浏览约需要 20 分钟，详细阅读约需要 40 分钟，如果准备实际操">
 <meta property="og:locale" content="zh_CN">
@@ -33,8 +33,8 @@
 <meta property="og:image" content="https://cdn.luogu.com.cn/upload/image_hosting/cghurcgr.png">
 <meta property="og:image" content="https://cdn.luogu.com.cn/upload/image_hosting/tg5sx6ds.png">
 <meta property="og:image" content="https://cdn.luogu.com.cn/upload/image_hosting/bixcsjiw.png">
-<meta property="article:published_time" content="2025-12-04T07:35:47.000Z">
-<meta property="article:modified_time" content="2025-12-06T10:53:43.516Z">
+<meta property="article:published_time" content="2025-12-04T07:35:45.000Z">
+<meta property="article:modified_time" content="2025-12-06T11:05:58.318Z">
 <meta property="article:author" content="Pulsar">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://cdn.luogu.com.cn/upload/image_hosting/ttdwyb12.png">
@@ -79,7 +79,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"pulsar.github.io","root":"/","version":"1.9.8","typing":{"enable":false,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
+    var CONFIG = {"hostname":"pulsar33550336.github.io","root":"/","version":"1.9.8","typing":{"enable":false,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -938,7 +938,7 @@ class="uri">https://zhuanlan.zhihu.com/p/616940828</a></p>
   <div class="license-box my-3">
     <div class="license-title">
       <div>ArchLinux 简明安装&amp;使用指南</div>
-      <div>http://pulsar.github.io/2025/12/04/ArchLinux-简明安装-使用指南/</div>
+      <div>http://pulsar33550336.github.io/2025/12/04/ArchLinux-简明安装-使用指南/</div>
     </div>
     <div class="license-meta">
       
