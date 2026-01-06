@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="terminal" baseProfile="full" viewBox="0 0 1160 325" width="1160" version="1.1">
+    <defs>
+        <termtosvg:template_settings xmlns:termtosvg="https://github.com/nbedos/termtosvg">
+            <termtosvg:screen_geometry columns="145" rows="19"/>
+            <termtosvg:animation type="css"/>
+        </termtosvg:template_settings>
+        <style type="text/css" id="generated-style"><![CDATA[#screen {
+                font-family: 'DejaVu Sans Mono', monospace;
+                font-style: normal;
+                font-size: 14px;
+            }
+
+        text {
+            dominant-baseline: text-before-edge;
+            white-space: pre;
+        }
+    
+            :root {
+                --animation-duration: 3342ms;
+            }
+
+            @keyframes roll {
+                0.000%{transform:translateY(0px)}
+0.060%{transform:translateY(-340px)}
+57.451%{transform:translateY(-680px)}
+57.630%{transform:translateY(-1020px)}
+57.810%{transform:translateY(-1360px)}
+57.840%{transform:translateY(-1700px)}
+57.870%{transform:translateY(-2040px)}
+57.929%{transform:translateY(-2380px)}
+57.989%{transform:translateY(-2720px)}
+60.981%{transform:translateY(-3060px)}
+63.974%{transform:translateY(-3400px)}
+66.966%{transform:translateY(-3740px)}
+69.958%{transform:translateY(-4080px)}
+69.988%{transform:translateY(-4420px)}
+70.078%{transform:translateY(-4760px)}
+100.000%{transform:translateY(-4760px)}
+            }
+
+            #screen_view {
+                animation-duration: 3342ms;
+                animation-iteration-count:infinite;
+                animation-name:roll;
+                animation-timing-function: steps(1,end);
+                animation-fill-mode: forwards;
+            }
+        ]]></style>
+        <style type="text/css" id="user-style">
+            /* The colors defined below are the default 16 colors used for rendering text of the terminal. Adjust
+               them as needed.
+               ubuntu colors based on https://en.wikipedia.org/wiki/ANSI_escape_code#Colors */
+            .foreground {fill: #e5e5e5;}
+            .background {fill: #010101;}
+            .color0 {fill: #010101;}
+            .color1 {fill: #de382b;}
+            .color2 {fill: #39b54a;}
+            .color3 {fill: #ffc706;}
+            .color4 {fill: #006fb8;}
+            .color5 {fill: #762671;}
+            .color6 {fill: #2cb5e9;}
+            .color7 {fill: #cccccc;}
+            .color8 {fill: #808080;}
+            .color9 {fill: #ff0000;}
+            .color10 {fill: #00ff00;}
+            .color11 {fill: #ffff00;}
+            .color12 {fill: #0000ff;}
+            .color13 {fill: #ff00ff;}
+            .color14 {fill: #00ffff;}
+            .color15 {fill: #ffffff;}
+        </style>
+    </defs>
+    <svg id="screen" width="1160" height="323" viewBox="0 0 1160 323" preserveAspectRatio="xMidYMin slice">
+    <rect class="background" height="100%" width="100%" x="0" y="0"/><defs><g id="g1"><text x="0" textLength="96" font-weight="bold" class="color10">   Compiling</text><text x="96" textLength="392" class="foreground"> tuack-ng v0.1.2 (/home/Pulsar/Projects/tuack-ng)</text></g><g id="g2"><text x="0" textLength="8" class="background"> </text><text x="8" textLength="88" font-weight="bold" class="color14">   Building</text><text x="96" textLength="1048" class="foreground"> [=======================&gt; ] 261/263: tuack-ng(build)                                                                              </text></g><g id="g3"><text x="0" textLength="8" class="background"> </text><text x="8" textLength="88" font-weight="bold" class="color14">   Building</text><text x="96" textLength="1048" class="foreground"> [=======================&gt; ] 262/263: tuack-ng(bin)                                                                                </text></g><g id="g4"><text x="0" textLength="96" font-weight="bold" class="color10">    Finished</text><text x="96" textLength="1064" class="foreground"> `debug-release` profile [optimized] target(s) in 1.97s                                                                              </text></g><g id="g5"><text x="0" textLength="8" class="background"> </text></g><g id="g6"><text x="0" textLength="96" font-weight="bold" class="color10">     Running</text><text x="96" textLength="568" class="foreground"> `/home/Pulsar/Projects/tuack-ng/target/debug-release/tuack-ng ren noi`</text></g><g id="g7"><text x="0" textLength="24" class="foreground">  [</text><text x="24" textLength="320" class="color4">                                        </text><text x="344" textLength="816" class="foreground">] 0/1 &#28210;&#26579;&#22825;: day1                                                                                    </text></g><g id="g8"><text x="0" textLength="24" class="foreground">  [</text><text x="24" textLength="320" class="color4">                                        </text><text x="344" textLength="816" class="foreground">] 0/4 &#22788;&#29702;&#38382;&#39064;: candy                                                                                 </text><text x="1160" textLength="8" class="background"> </text></g><g id="g9"><text x="0" textLength="24" class="foreground">  [</text><text x="24" textLength="320" class="color4">                                        </text><text x="344" textLength="816" class="foreground">] 0/4 &#23637;&#24320;&#23439;: candy                                                                                   </text><text x="1160" textLength="8" class="background"> </text></g><g id="g10"><text x="0" textLength="24" class="foreground">  [</text><text x="24" textLength="168" class="color6">====================&gt;</text><text x="192" textLength="152" class="color4">                   </text><text x="344" textLength="816" class="foreground">] 2/4 &#22788;&#29702;&#38382;&#39064;: tree                                                                                  </text><text x="1160" textLength="8" class="background"> </text></g><g id="g11"><text x="0" textLength="24" class="foreground">  [</text><text x="24" textLength="168" class="color6">====================&gt;</text><text x="192" textLength="152" class="color4">                   </text><text x="344" textLength="816" class="foreground">] 2/4 &#23637;&#24320;&#23439;: tree                                                                                    </text><text x="1160" textLength="8" class="background"> </text></g><g id="g12"><text x="0" textLength="1160" class="foreground">&#10241; &#32534;&#35793;PDF: day1                                                                                                                                  </text><text x="1160" textLength="8" class="background"> </text></g><g id="g13"><text x="0" textLength="1160" class="foreground">&#10249; &#32534;&#35793;PDF: day1                                                                                                                                  </text><text x="1160" textLength="8" class="background"> </text></g><g id="g14"><text x="0" textLength="1160" class="foreground">&#10265; &#32534;&#35793;PDF: day1                                                                                                                                  </text><text x="1160" textLength="8" class="background"> </text></g><g id="g15"><text x="0" textLength="1160" class="foreground">&#10266; &#32534;&#35793;PDF: day1                                                                                                                                  </text><text x="1160" textLength="8" class="background"> </text></g><g id="g16"><text x="0" textLength="1160" class="foreground">&#10258; &#32534;&#35793;PDF: day1                                                                                                                                  </text><text x="1160" textLength="8" class="background"> </text></g><g id="g17"><text x="0" textLength="24" class="foreground">  [</text><text x="24" textLength="320" class="color4">                                        </text><text x="344" textLength="816" class="foreground">] 0/1 &#28210;&#26579;&#22825;: day1                                                                                    </text><text x="1160" textLength="8" class="background"> </text></g><g id="g18"><text x="0" textLength="1160" class="foreground">                                                                                                                                                 </text></g><g id="g19"><text x="0" textLength="24" class="foreground">  [</text><text x="24" textLength="320" class="color2">========================================</text><text x="344" textLength="816" class="foreground">] 1/1 &#28210;&#26579;&#23436;&#25104;&#65281;                                                                                      </text><text x="1160" textLength="8" class="background"> </text></g></defs><g id="screen_view"><g><use xlink:href="#g1" y="0"/><rect x="0" y="17" width="8" height="17" class="foreground"/><use xlink:href="#g2" y="17"/></g><g><use xlink:href="#g1" y="340"/><rect x="0" y="357" width="8" height="17" class="foreground"/><use xlink:href="#g3" y="357"/></g><g><use xlink:href="#g1" y="680"/><use xlink:href="#g4" y="697"/><rect x="0" y="714" width="8" height="17" class="foreground"/><use xlink:href="#g5" y="714"/></g><g><use xlink:href="#g1" y="1020"/><use xlink:href="#g4" y="1037"/><use xlink:href="#g6" y="1054"/><rect x="0" y="1071" width="8" height="17" class="foreground"/><use xlink:href="#g5" y="1071"/></g><g><use xlink:href="#g1" y="1360"/><use xlink:href="#g4" y="1377"/><use xlink:href="#g6" y="1394"/><use xlink:href="#g7" y="1411"/><rect x="1160" y="1428" width="8" height="17" class="foreground"/><use xlink:href="#g8" y="1428"/></g><g><use xlink:href="#g1" y="1700"/><use xlink:href="#g4" y="1717"/><use xlink:href="#g6" y="1734"/><use xlink:href="#g7" y="1751"/><rect x="1160" y="1768" width="8" height="17" class="foreground"/><use xlink:href="#g9" y="1768"/></g><g><use xlink:href="#g1" y="2040"/><use xlink:href="#g4" y="2057"/><use xlink:href="#g6" y="2074"/><use xlink:href="#g7" y="2091"/><rect x="1160" y="2108" width="8" height="17" class="foreground"/><use xlink:href="#g10" y="2108"/></g><g><use xlink:href="#g1" y="2380"/><use xlink:href="#g4" y="2397"/><use xlink:href="#g6" y="2414"/><use xlink:href="#g7" y="2431"/><rect x="1160" y="2448" width="8" height="17" class="foreground"/><use xlink:href="#g11" y="2448"/></g><g><use xlink:href="#g1" y="2720"/><use xlink:href="#g4" y="2737"/><use xlink:href="#g6" y="2754"/><use xlink:href="#g7" y="2771"/><rect x="1160" y="2788" width="8" height="17" class="foreground"/><use xlink:href="#g12" y="2788"/></g><g><use xlink:href="#g1" y="3060"/><use xlink:href="#g4" y="3077"/><use xlink:href="#g6" y="3094"/><use xlink:href="#g7" y="3111"/><rect x="1160" y="3128" width="8" height="17" class="foreground"/><use xlink:href="#g13" y="3128"/></g><g><use xlink:href="#g1" y="3400"/><use xlink:href="#g4" y="3417"/><use xlink:href="#g6" y="3434"/><use xlink:href="#g7" y="3451"/><rect x="1160" y="3468" width="8" height="17" class="foreground"/><use xlink:href="#g14" y="3468"/></g><g><use xlink:href="#g1" y="3740"/><use xlink:href="#g4" y="3757"/><use xlink:href="#g6" y="3774"/><use xlink:href="#g7" y="3791"/><rect x="1160" y="3808" width="8" height="17" class="foreground"/><use xlink:href="#g15" y="3808"/></g><g><use xlink:href="#g1" y="4080"/><use xlink:href="#g4" y="4097"/><use xlink:href="#g6" y="4114"/><use xlink:href="#g7" y="4131"/><rect x="1160" y="4148" width="8" height="17" class="foreground"/><use xlink:href="#g16" y="4148"/></g><g><use xlink:href="#g1" y="4420"/><use xlink:href="#g4" y="4437"/><use xlink:href="#g6" y="4454"/><rect x="1160" y="4471" width="8" height="17" class="foreground"/><use xlink:href="#g17" y="4471"/><use xlink:href="#g18" y="4488"/></g><g><use xlink:href="#g1" y="4760"/><use xlink:href="#g4" y="4777"/><use xlink:href="#g6" y="4794"/><rect x="1160" y="4811" width="8" height="17" class="foreground"/><use xlink:href="#g19" y="4811"/><use xlink:href="#g18" y="4828"/></g></g></svg>
+</svg>
